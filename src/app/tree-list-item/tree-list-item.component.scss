@@ -1,0 +1,33 @@
+.result {
+    width: 100%;
+
+    min-height: 80px;
+    border-bottom: 1px solid darken(white, 25%);
+
+    .spacing {
+        padding: 5px;
+
+        & > div {
+            display: inline-block;
+        }
+
+        .name {
+            min-width: 20vw;
+        }
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0px 3px 5px lightgray;
+    }
+}
+
+:host:nth-child(even) {
+    .result{
+        background-color: darken(white, 10%);
+    }
+}

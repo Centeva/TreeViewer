@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Findings",
+        "desc": "Finding basic page definition",
+        "path": "../../assets/findings.json"
+    },
+    {
+        "id": 2,
+        "name": "OpenItems",
+        "desc": "Open Items basic page definition",
+        "path": "../../assets/openItems.json"
+    }
+]

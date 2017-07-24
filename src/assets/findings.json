@@ -1,0 +1,53 @@
+[
+    {
+        "id": 0,
+        "parentId": null,
+        "name": null,
+        "title": "Test Node"
+    },
+    {
+        "id": 1,
+        "parentId": 0,
+        "name": "One",
+        "title": "One Selected"
+    },
+    {
+        "id": 2,
+        "parentId": 0,
+        "name": "Two",
+        "title": "Two Selected"
+    },
+    {
+        "id": 3,
+        "parentId": 1,
+        "name": "One",
+        "title": "One One Selected",
+        "model": {
+            "One": 1
+        }
+    },
+    {
+        "id": 4,
+        "parentId": 1,
+        "name": "Two",
+        "title": "One Two Selected"
+    },
+    {
+        "id": 5,
+        "parentId": 2,
+        "name": "One",
+        "title": "Two One Selected"
+    },
+    {
+        "id": 6,
+        "parentId": 2,
+        "name": "Two",
+        "title": "Two Two Selected"
+    },
+    {
+        "id": 7,
+        "parentId": 2,
+        "name": "Three",
+        "refId": 3
+    }
+]

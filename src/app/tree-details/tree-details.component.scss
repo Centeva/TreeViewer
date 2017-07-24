@@ -1,0 +1,17 @@
+.workspace {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 25vw;
+    grid-template-rows: 1fr;
+    grid-template-areas: "viewer inspector";
+
+    .viewer {
+
+    }
+
+    .inspector {
+        height: 100%;
+        width: 100%;
+        box-shadow: -3px 0px 5px lightgray;
+    }
+}
