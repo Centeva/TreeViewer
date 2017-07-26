@@ -10,11 +10,12 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { appRouterProviders } from './app.router';
 import { HttpModule } from '@angular/http';
 
-import { MdToolbarModule, MdTableModule } from '@angular/material';
+import { MdToolbarModule, MdTableModule, MdCardModule, MdButtonModule, MdInputModule, MdTooltipModule, MdSnackBarModule, MdCoreModule } from '@angular/material';
 import { CdkTableModule } from '@angular/cdk';
 import { TreeListItemComponent } from './tree-list-item/tree-list-item.component';
 import { NodeService } from './node.service';
 import { TreeService } from './tree.service';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,10 +27,18 @@ import { TreeService } from './tree.service';
     TreeListItemComponent
   ],
   imports: [
-    BrowserModule,
     MdToolbarModule,
+    MdCardModule,
+    MdCoreModule,
+    MdSnackBarModule,
+    MdTooltipModule,
+    MdButtonModule,
+    MdInputModule,
     MdTableModule,
     CdkTableModule,
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     HttpModule,
     appRouterProviders

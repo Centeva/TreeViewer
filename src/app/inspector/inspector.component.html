@@ -1,4 +1,45 @@
-<p>
-  inspector works!
-  {{show}}
-</p>
+<div class="node-form">
+  <form #nodeForm="ngForm" (ngSubmit)="onSubmit()">
+    <md-input-container>
+      <input mdInput name="name" placeholder="Name" [(ngModel)]="form.name" required>
+    </md-input-container>
+
+    <md-input-container>
+      <input mdInput name="title" placeholder="Title" [(ngModel)]="form.title" required>
+    </md-input-container>
+
+    <md-input-container>
+      <input mdInput name="parentId" placeholder="Parent Id" [(ngModel)]="form.parentId" pattern="[0-9]*">
+      <md-error>Must be a number!</md-error>
+    </md-input-container>
+
+    <md-input-container>
+      <input mdInput name="refId" placeholder="Reference Id" [(ngModel)]="form.refId" pattern="[0-9]*">
+      <md-error>Must be a number!</md-error>
+    </md-input-container>
+
+    <h3>Model</h3>
+    <div class="model-list">
+      <md-list>
+        <md-list-item *ngFor="let pair of modelPairs; let i = index;">
+          <md-input-container>
+            <input mdInput name="key-{{i}}" placeholder="key" [(ngModel)]="pair.key">
+          </md-input-container>
+          :
+          <md-input-container>
+            <input mdInput name="value-{{i}}" placeholder="value" [(ngModel)]="pair.value">
+          </md-input-container>
+        </md-list-item>
+      </md-list>
+      <button md-button type="button" (click)="addEmptyPair()">Add</button>
+    </div>
+
+  </form>
+  <div class="fill"></div>
+  <div class="btn-group">
+    <button md-button [disabled]="!nodeForm.valid" (click)="onSubmit()">Save</button>
+    <button md-button [mdTooltipPosition]="'above'" mdTooltip="Add a new node as a child to this one" (click)="addChild()"><i class="fa fa-plus"></i> Add child</button>
+    <button md-button [mdTooltipPosition]="'above'" mdTooltip="Copy tree json to clipboard" (click)="copyMessage()" id="copy-btn"><i class="fa fa-copy"></i> Copy json</button>
+    <button md-button [mdTooltipPosition]="'above'" mdTooltip="Remove this node and all children" (click)="delete()"><i class="fa fa-trash"></i> Delete</button>
+  </div>
+</div>
