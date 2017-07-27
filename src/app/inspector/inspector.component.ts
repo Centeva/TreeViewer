@@ -35,6 +35,9 @@ export class InspectorComponent<T> implements OnInit {
     const clip = new Clipboard('#copy-btn', {
       text: trigger => JSON.stringify(this.treeService.getValue())
     });
+    const saveClip = new Clipboard('#saved-btn', {
+      text: trigger => JSON.stringify(this.treeService.getValue())
+    });
   }
 
   getModelPairs(form: NodeForm) {

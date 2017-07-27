@@ -37,7 +37,7 @@
   </form>
   <div class="fill"></div>
   <div class="btn-group">
-    <button md-button [disabled]="!nodeForm.valid" (click)="onSubmit()">Save</button>
+    <button md-button [disabled]="!nodeForm.valid" (click)="onSubmit()" id="saved-btn">Save</button>
     <button md-button [mdTooltipPosition]="'above'" mdTooltip="Add a new node as a child to this one" (click)="addChild()"><i class="fa fa-plus"></i> Add child</button>
     <button md-button [mdTooltipPosition]="'above'" mdTooltip="Copy tree json to clipboard" (click)="copyMessage()" id="copy-btn"><i class="fa fa-copy"></i> Copy json</button>
     <button md-button [mdTooltipPosition]="'above'" mdTooltip="Remove this node and all children" (click)="delete()"><i class="fa fa-trash"></i> Delete</button>

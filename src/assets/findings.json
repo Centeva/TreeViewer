@@ -3,28 +3,400 @@
         "id": 0,
         "parentId": null,
         "name": "root",
-        "title": "Test Node",
-        "model": {
-            "FindingType": "FIN",
-            "Other": "4",
-            "Another!": "WOW"
-        }
+        "title": "What do you want to document?",
+        "model": {}
     },
     {
         "id": 1,
         "parentId": 0,
-        "name": "One",
-        "title": "Another One!",
-        "model": {
-            "One": "1"
-        }
+        "name": "Finding / Violation",
+        "title": "Is Traditional Enforcement Required?",
+        "model": {}
     },
     {
         "id": 2,
+        "parentId": 0,
+        "name": "Open Unresolved Item (URI)",
+        "title": " ",
+        "model": {}
+    },
+    {
+        "id": 3,
+        "parentId": 0,
+        "name": "Enforcement Discretion",
+        "title": " ",
+        "model": {}
+    },
+    {
+        "id": 4,
+        "parentId": 0,
+        "name": "Non-ROP Violation",
+        "title": "Specify the Violation",
+        "model": {}
+    },
+    {
+        "id": 5,
         "parentId": 1,
-        "name": "Two",
-        "title": "Another two!",
-        "refId": "0",
+        "name": "Yes",
+        "title": "Specify the Violation",
+        "model": {}
+    },
+    {
+        "id": 6,
+        "parentId": 1,
+        "name": "No",
+        "title": "Specify the Violation",
+        "model": {}
+    },
+    {
+        "id": 7,
+        "parentId": 6,
+        "name": "Non-cited Violation (NCV)",
+        "title": "Specify Identification",
+        "model": {}
+    },
+    {
+        "id": 8,
+        "parentId": 6,
+        "name": "Apparent Violation (AV)",
+        "title": "Specify the Significance",
+        "model": {}
+    },
+    {
+        "id": 9,
+        "parentId": 6,
+        "name": "Notice of Violation (NOV)",
+        "title": "Specify Identification",
+        "model": {}
+    },
+    {
+        "id": 10,
+        "parentId": 6,
+        "name": "Finding without a violation (FIN)",
+        "title": "Specify the Significance",
+        "model": {}
+    },
+    {
+        "id": 11,
+        "parentId": 5,
+        "name": "Non-cited Violation (NCV) (Severity Level IV)",
+        "title": "Specify the Significance",
+        "model": {}
+    },
+    {
+        "id": 12,
+        "parentId": 5,
+        "name": "Apparent Violation (AV)",
+        "title": "Specify the Significance",
+        "model": {}
+    },
+    {
+        "id": 13,
+        "parentId": 5,
+        "name": "Notice of Violation (NOV) (Severity Level IV)",
+        "title": "Specify the Significance",
+        "model": {}
+    },
+    {
+        "id": 14,
+        "parentId": 8,
+        "name": "Pending Significance Enforcement Review Panel",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 15,
+        "parentId": 8,
+        "name": "Preliminary White",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 16,
+        "parentId": 8,
+        "name": "Preliminary Yellow",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 17,
+        "parentId": 8,
+        "name": "Preliminary Red",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 18,
+        "parentId": 8,
+        "name": "Preliminary Greater than Green",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 19,
+        "parentId": 10,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 20,
+        "parentId": 10,
+        "name": "Pending Significance Enforcement Review Panel",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 21,
+        "parentId": 10,
+        "name": "Preliminary white",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 22,
+        "parentId": 10,
+        "name": "Preliminary Yellow",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 23,
+        "parentId": 10,
+        "name": "Preliminary Red",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 24,
+        "parentId": 10,
+        "name": "Preliminary Greater than Green",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 25,
+        "parentId": 7,
+        "name": "NRC",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 26,
+        "parentId": 7,
+        "name": "Self Revealed",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 27,
+        "parentId": 7,
+        "name": "Licensee",
+        "title": " ",
+        "model": {}
+    },
+    {
+        "id": 28,
+        "parentId": 9,
+        "name": "NRC",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 29,
+        "parentId": 9,
+        "name": "Self Revealed",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 30,
+        "parentId": 9,
+        "name": "Licensee",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 31,
+        "parentId": 12,
+        "name": "No Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 32,
+        "parentId": 12,
+        "name": "Minor Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 33,
+        "parentId": 12,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 34,
+        "parentId": 12,
+        "name": "Pending Significance Enforcement Review Panel",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 35,
+        "parentId": 12,
+        "name": "Preliminary White",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 36,
+        "parentId": 12,
+        "name": "Preliminary Tellow",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 37,
+        "parentId": 12,
+        "name": "Preliminary Red",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 38,
+        "parentId": 12,
+        "name": "Preliminary Greater than Green",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 39,
+        "parentId": 11,
+        "name": "No Performance Deficiency",
+        "title": "Specify Identification",
+        "model": {}
+    },
+    {
+        "id": 40,
+        "parentId": 11,
+        "name": "Minor Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 41,
+        "parentId": 11,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 42,
+        "parentId": 13,
+        "name": "Np Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 43,
+        "parentId": 13,
+        "name": "Minor Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 44,
+        "parentId": 13,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {}
+    },
+    {
+        "id": 46,
+        "parentId": 14,
+        "name": "Self Revealed",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 45,
+        "parentId": 14,
+        "children": [],
+        "name": "NRC",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 47,
+        "parentId": 14,
+        "name": "Licensee",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 48,
+        "parentId": 18,
+        "name": "NRC",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 49,
+        "parentId": 18,
+        "name": "Self Revealed",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 50,
+        "parentId": 18,
+        "name": "Licensee",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 51,
+        "parentId": 17,
+        "name": "NRC",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 52,
+        "parentId": 17,
+        "name": "Self Revealed",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 53,
+        "parentId": 17,
+        "name": "Licensee",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 54,
+        "parentId": 15,
+        "name": "NRC",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 55,
+        "parentId": 15,
+        "name": "Self Revealed",
+        "title": "Specify the Cornerstone",
+        "model": {}
+    },
+    {
+        "id": 56,
+        "parentId": 15,
+        "name": "Licensee",
+        "title": "Specify the Cornerstone",
         "model": {}
     }
 ]

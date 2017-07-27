@@ -49,7 +49,7 @@ export class ViewerComponent<T> implements OnInit {
 
   update(source: node<T>) {
     // set the dimensions and margins of the diagram
-    const margin = { top: 20, right: 90, bottom: 30, left: 90 };
+    const margin = { top: 20, right: 400, bottom: 30, left: 120 };
     const selection = (<any>d3.select('#tree-container'))._groups[0][0];
     const width = selection.clientWidth - margin.left - margin.right - 100;
     const height = selection.clientHeight - margin.top - margin.bottom - 100;
