@@ -1,5 +1,6 @@
 <div class="node-form">
   <form #nodeForm="ngForm" (ngSubmit)="onSubmit()">
+    <label>Id: {{form.id}}</label>
     <md-input-container>
       <input mdInput name="name" placeholder="Name" #focusable [(ngModel)]="form.name" required>
     </md-input-container>

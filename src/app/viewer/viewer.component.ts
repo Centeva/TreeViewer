@@ -18,7 +18,7 @@ export class ViewerComponent<T> implements OnInit {
   pending = false;
   currentTree: node<T>[] = [];
   root: node<T>;
-
+  treeHeightCount = 0;
   ngOnInit() {
 
     // this.margin = { top: 20, right: 120, bottom: 20, left: 120 };
@@ -27,32 +27,33 @@ export class ViewerComponent<T> implements OnInit {
 
     this.treeService.subscribe(tree => {
       if (!!tree && tree.length > 0) {
-        console.log(this.buildChildren(tree));
-        this.root = this.buildChildren(this.fillRefs(tree)).find(n => n.parentId === null);
+        const builtTree = this.buildChildren(this.fillRefs(tree));
+        this.treeHeightCount = builtTree.filter(n => !n.children || n.children.length === 0).length;
+        this.root = builtTree.find(n => n.parentId === null);
         this.nodeService.next(this.root);
       }
     });
 
-    this.nodeService.subscribe(n => void(n && this.update(this.root)));
+    this.nodeService.subscribe(n => void(n && this.update(this.root, this.treeHeightCount)));
   }
 
   constructor(private treeService: TreeService, private nodeService: NodeService) { }
 
   buildChildren(tree: node<T>[] = [], filteredTree: node<T>[] = tree): node<T>[] {
     // tslint:disable-next-line:max-line-length
-    return _.sortBy(filteredTree.map(n => ({ ...n, children: this.buildChildren(tree, tree.filter(m => m.parentId === n.id)) })), n => n.name);
+    return _.sortBy(filteredTree.map(n => ({ ...n, children: this.fillRefs(this.buildChildren(tree, tree.filter(m => m.parentId === n.id))) })), n => n.name);
   }
 
   fillRefs(tree: node<T>[] = []): node<T>[] {
     return tree.map(n => ({ ...tree.find(map => map.id === +n.refId), ...n, refId: undefined }));
   }
 
-  update(source: node<T>) {
+  update(source: node<T>, treeHeightCount: number = 0) {
     // set the dimensions and margins of the diagram
-    const margin = { top: 20, right: 400, bottom: 30, left: 120 };
+    const margin = { top: 5, right: 400, bottom: 5, left: 120 };
     const selection = (<any>d3.select('#tree-container'))._groups[0][0];
     const width = selection.clientWidth - margin.left - margin.right - 100;
-    const height = selection.clientHeight - margin.top - margin.bottom - 100;
+    const height = Math.max(selection.clientHeight, treeHeightCount * 30) - margin.top - margin.bottom;
 
     // declares a tree layout and assigns the size
     const treemap = d3.tree()
