@@ -66,10 +66,11 @@ export class InspectorComponent<T> implements OnInit {
     this.snackBar.open('Saved node!', null, { duration: 1000 });
   }
 
-  addChild() {
+  addChild(el) {
     const newNode = { id: this.treeService.getValue().length, parentId: this.currentNode.id } as node<any>;
     this.treeService.next([...this.treeService.getValue(), newNode]);
     this.nodeService.next(newNode);
+    el.focus();
   }
 
   copyMessage() {
