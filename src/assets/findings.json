@@ -5726,7 +5726,7 @@
         "name": "Notice of Violation (NOV)",
         "title": "Specify Identification",
         "model": {
-            "FindingEnforcementType": "NOV",
+            "FindingEnforcementActionTypeCode": "NOV",
             "FindingTypeCode": "FWNTEV",
             "FindingSignificanceTypeCode": "GRN"
         }
