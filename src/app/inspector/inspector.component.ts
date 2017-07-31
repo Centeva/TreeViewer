@@ -33,10 +33,10 @@ export class InspectorComponent<T> implements OnInit {
       }
     });
     const clip = new Clipboard('#copy-btn', {
-      text: trigger => JSON.stringify(this.treeService.getValue())
+      text: trigger => JSON.stringify(this.treeService.getValue().map(n => ({...n, children: undefined})))
     });
     const saveClip = new Clipboard('#saved-btn', {
-      text: trigger => JSON.stringify(this.treeService.getValue())
+      text: trigger => JSON.stringify(this.treeService.getValue().map(n => ({...n, children: undefined})))
     });
   }
 
