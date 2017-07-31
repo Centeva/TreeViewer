@@ -25,15 +25,6 @@
         }
     },
     {
-        "id": 27,
-        "parentId": 7,
-        "name": "Licensee",
-        "title": " ",
-        "model": {
-            "FindingIdentificationType": "LI"
-        }
-    },
-    {
         "id": 28,
         "parentId": 9,
         "name": "NRC",
@@ -574,15 +565,6 @@
         }
     },
     {
-        "id": 103,
-        "parentId": 41,
-        "name": "Licensee",
-        "title": " ",
-        "model": {
-            "FindingIdentificationType": "LI"
-        }
-    },
-    {
         "id": 104,
         "parentId": 40,
         "name": "NRC",
@@ -601,15 +583,6 @@
         }
     },
     {
-        "id": 106,
-        "parentId": 40,
-        "name": "Licensee",
-        "title": " ",
-        "model": {
-            "FindingIdentificationType": "LI"
-        }
-    },
-    {
         "id": 107,
         "parentId": 39,
         "name": "NRC",
@@ -625,15 +598,6 @@
         "title": "Specify the Cornerstone",
         "model": {
             "FindingIdentificationType": "SR"
-        }
-    },
-    {
-        "id": 109,
-        "parentId": 39,
-        "name": "Licensee",
-        "title": " ",
-        "model": {
-            "FindingIdentificationType": "LI"
         }
     },
     {
@@ -5092,15 +5056,6 @@
         }
     },
     {
-        "id": 623,
-        "parentId": 117,
-        "name": "Emergency Preparedness",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneType": "EP"
-        }
-    },
-    {
         "id": 624,
         "parentId": 117,
         "name": "Occupational Radiation Safety",
@@ -5254,39 +5209,12 @@
         }
     },
     {
-        "id": 3,
-        "parentId": 0,
-        "name": "Enforcement Discretion",
-        "title": " ",
-        "model": {
-            "documentType": "ED"
-        }
-    },
-    {
         "id": 1,
         "parentId": 0,
         "name": "Finding / Violation",
         "title": "Is Traditional Enforcement Required?",
         "model": {
             "documentType": "FV"
-        }
-    },
-    {
-        "id": 4,
-        "parentId": 0,
-        "name": "Non-ROP Violation",
-        "title": "Specify the Violation",
-        "model": {
-            "documentType": "NROP"
-        }
-    },
-    {
-        "id": 2,
-        "parentId": 0,
-        "name": "Open Unresolved Item (URI)",
-        "title": " ",
-        "model": {
-            "documentType": "URI"
         }
     },
     {
@@ -5308,15 +5236,6 @@
         }
     },
     {
-        "id": 8,
-        "parentId": 6,
-        "name": "Apparent Violation (AV)",
-        "title": "Specify the Significance",
-        "model": {
-            "FindingEnforcementActionType": "AV"
-        }
-    },
-    {
         "id": 14,
         "parentId": 8,
         "name": "Pending Significance Enforcement Review Panel",
@@ -5332,15 +5251,6 @@
         "title": "Specify the Identification",
         "model": {
             "FindingSignificanceType": "PGTG"
-        }
-    },
-    {
-        "id": 10,
-        "parentId": 6,
-        "name": "Finding without a violation (FIN)",
-        "title": "Specify the Significance",
-        "model": {
-            "FindingEnforcementActionType": "FIN"
         }
     },
     {
@@ -5425,111 +5335,12 @@
         }
     },
     {
-        "id": 7,
-        "parentId": 6,
-        "name": "Non-cited Violation (NCV)",
-        "title": "Specify Identification",
-        "model": {
-            "FindingEnforcementActionType": "NCV"
-        }
-    },
-    {
-        "id": 9,
-        "parentId": 6,
-        "name": "Notice of Violation (NOV)",
-        "title": "Specify Identification",
-        "model": {
-            "FindingEnforcementType": "NOV"
-        }
-    },
-    {
-        "id": 33,
-        "parentId": 12,
-        "name": "Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "GRN"
-        }
-    },
-    {
-        "id": 32,
-        "parentId": 12,
-        "name": "Minor Performance Deficiency",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "MINRPD"
-        }
-    },
-    {
-        "id": 31,
-        "parentId": 12,
-        "name": "No Performance Deficiency",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "NOPD"
-        }
-    },
-    {
-        "id": 34,
-        "parentId": 12,
-        "name": "Pending Significance Enforcement Review Panel",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "PSERP"
-        }
-    },
-    {
-        "id": 38,
-        "parentId": 12,
-        "name": "Preliminary Greater than Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "PGTG"
-        }
-    },
-    {
         "id": 12,
         "parentId": 5,
         "name": "Apparent Violation (AV)",
         "title": "Specify the Significance",
         "model": {
             "FindingEnforcementActionType": "AV"
-        }
-    },
-    {
-        "id": 37,
-        "parentId": 12,
-        "name": "Preliminary Red",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "RED"
-        }
-    },
-    {
-        "id": 35,
-        "parentId": 12,
-        "name": "Preliminary White",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "WHITE"
-        }
-    },
-    {
-        "id": 36,
-        "parentId": 12,
-        "name": "Preliminary Yellow",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "YELLOW"
-        }
-    },
-    {
-        "id": 41,
-        "parentId": 11,
-        "name": "Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "GRN"
         }
     },
     {
@@ -5542,33 +5353,6 @@
         }
     },
     {
-        "id": 40,
-        "parentId": 11,
-        "name": "Minor Performance Deficiency",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "MINRPD"
-        }
-    },
-    {
-        "id": 39,
-        "parentId": 11,
-        "name": "No Performance Deficiency",
-        "title": "Specify Identification",
-        "model": {
-            "FindingSignificanceType": "NOPD"
-        }
-    },
-    {
-        "id": 44,
-        "parentId": 13,
-        "name": "Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceType": "GRN"
-        }
-    },
-    {
         "id": 13,
         "parentId": 5,
         "name": "Notice of Violation (NOV) (Severity Level IV)",
@@ -5578,12 +5362,102 @@
         }
     },
     {
+        "id": 61,
+        "parentId": 19,
+        "name": "Self",
+        "title": "Specify the Cornerstone",
+        "model": {
+            "FindingIdentificationType": "SR"
+        }
+    },
+    {
+        "id": 32,
+        "parentId": 12,
+        "name": "Minor Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "MINRPD",
+            "FindingType": "TEVWOF"
+        }
+    },
+    {
+        "id": 31,
+        "parentId": 12,
+        "name": "No Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "NOPD",
+            "FindingType": "TEVWOF"
+        }
+    },
+    {
+        "id": 33,
+        "parentId": 12,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "GRN",
+            "FindingType": "TEVWFI"
+        }
+    },
+    {
+        "id": 34,
+        "parentId": 12,
+        "name": "Pending Significance Enforcement Review Panel",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "PSERP",
+            "FindingType": "TEVWFI"
+        }
+    },
+    {
+        "id": 38,
+        "parentId": 12,
+        "name": "Preliminary Greater than Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "PGTG",
+            "FindingType": "TEVWFI"
+        }
+    },
+    {
+        "id": 37,
+        "parentId": 12,
+        "name": "Preliminary Red",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "RED",
+            "FindingType": "TEVWFI"
+        }
+    },
+    {
+        "id": 35,
+        "parentId": 12,
+        "name": "Preliminary White",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "WHITE",
+            "FindingType": "TEVWFI"
+        }
+    },
+    {
+        "id": 36,
+        "parentId": 12,
+        "name": "Preliminary Yellow",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "YELLOW",
+            "FindingType": "TEVWFI"
+        }
+    },
+    {
         "id": 43,
         "parentId": 13,
         "name": "Minor Performance Deficiency",
         "title": "Specify the Identification",
         "model": {
-            "FindingSignificanceType": "MINRPD"
+            "FindingSignificanceType": "MINRPD",
+            "FindingType": "TEVWOF"
         }
     },
     {
@@ -5592,16 +5466,267 @@
         "name": "No Performance Deficiency",
         "title": "Specify the Identification",
         "model": {
-            "FindingSignificanceType": "NOPD"
+            "FindingSignificanceType": "NOPD",
+            "FindingType": "TEVWOF"
         }
     },
     {
-        "id": 61,
-        "parentId": 19,
-        "name": "Self",
-        "title": "Specify the Cornerstone",
+        "id": 44,
+        "parentId": 13,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "GRN",
+            "FindingType": "TEVWFI"
+        }
+    },
+    {
+        "id": 39,
+        "parentId": 11,
+        "name": "No Performance Deficiency",
+        "title": "Specify Identification",
+        "model": {
+            "FindingSignificanceType": "NOPD",
+            "FindingType": "TEVWOF"
+        }
+    },
+    {
+        "id": 109,
+        "parentId": 39,
+        "name": "Licensee",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "LI",
+            "FindingType": "LIV"
+        }
+    },
+    {
+        "id": 40,
+        "parentId": 11,
+        "name": "Minor Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "MINRPD",
+            "FindingType": "TEVWOF"
+        }
+    },
+    {
+        "id": 106,
+        "parentId": 40,
+        "name": "Licensee",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "LI",
+            "FindingType": "LIV"
+        }
+    },
+    {
+        "id": 41,
+        "parentId": 11,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceType": "GRN",
+            "FindingType": "TEVWFI"
+        }
+    },
+    {
+        "id": 103,
+        "parentId": 41,
+        "name": "Licensee",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "LI",
+            "FindingType": "LIV"
+        }
+    },
+    {
+        "id": 7,
+        "parentId": 6,
+        "name": "Non-cited Violation (NCV)",
+        "title": "Specify Identification",
+        "model": {
+            "FindingEnforcementActionType": "NCV",
+            "FindingType": "FWNTEV"
+        }
+    },
+    {
+        "id": 27,
+        "parentId": 7,
+        "name": "Licensee",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "LI",
+            "FindingType": "LIV"
+        }
+    },
+    {
+        "id": 9,
+        "parentId": 6,
+        "name": "Notice of Violation (NOV)",
+        "title": "Specify Identification",
+        "model": {
+            "FindingEnforcementType": "NOV",
+            "FindingType": "FWNTEV"
+        }
+    },
+    {
+        "id": 8,
+        "parentId": 6,
+        "name": "Apparent Violation (AV)",
+        "title": "Specify the Significance",
+        "model": {
+            "FindingEnforcementActionType": "AV",
+            "FindingType": "FWNTEV"
+        }
+    },
+    {
+        "id": 10,
+        "parentId": 6,
+        "name": "Finding without a violation (FIN)",
+        "title": "Specify the Significance",
+        "model": {
+            "FindingEnforcementActionType": "FIN",
+            "FindingType": "FWOV"
+        }
+    },
+    {
+        "id": 3,
+        "parentId": 0,
+        "name": "Enforcement Discretion",
+        "title": " ",
+        "model": {
+            "documentType": "ED",
+            "FindingType": "EDG"
+        }
+    },
+    {
+        "id": 2,
+        "parentId": 0,
+        "name": "Open Unresolved Item (URI)",
+        "title": " ",
+        "model": {
+            "documentType": "URI",
+            "FindingType": "URI"
+        }
+    },
+    {
+        "id": 644,
+        "parentId": 641,
+        "name": "Licensee",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "LI"
+        }
+    },
+    {
+        "id": 645,
+        "parentId": 641,
+        "name": "Self Revealed",
+        "title": " ",
         "model": {
             "FindingIdentificationType": "SR"
+        }
+    },
+    {
+        "id": 646,
+        "parentId": 641,
+        "name": "NRC",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "NRCI"
+        }
+    },
+    {
+        "id": 647,
+        "parentId": 642,
+        "name": "Licensee",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "LI"
+        }
+    },
+    {
+        "id": 648,
+        "parentId": 642,
+        "name": "Self Revealed",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "SR"
+        }
+    },
+    {
+        "id": 649,
+        "parentId": 642,
+        "name": "NRC",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "NRCI"
+        }
+    },
+    {
+        "id": 650,
+        "parentId": 643,
+        "name": "Licensee",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "LI"
+        }
+    },
+    {
+        "id": 651,
+        "parentId": 643,
+        "name": "Self Revealed",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "SR"
+        }
+    },
+    {
+        "id": 652,
+        "parentId": 643,
+        "name": "NRC",
+        "title": " ",
+        "model": {
+            "FindingIdentificationType": "NRCI"
+        }
+    },
+    {
+        "id": 4,
+        "parentId": 0,
+        "name": "Non-ROP Violation",
+        "title": "Specify the Violation",
+        "model": {
+            "documentType": "NROP",
+            "FindingType": "NROP",
+            "IsTE": "True"
+        }
+    },
+    {
+        "id": 643,
+        "parentId": 4,
+        "name": "Notice of Violation (NOV) (Severity Level IV)",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingEnforcementActionType": "NOVIV"
+        }
+    },
+    {
+        "id": 641,
+        "parentId": 4,
+        "name": "Non-cited Violation (NCV) (Severity Level IV)",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingEnforcementActionType": "NCVIV"
+        }
+    },
+    {
+        "id": 642,
+        "parentId": 4,
+        "name": "Apparent Violation (AV)",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingEnforcementActionType": "AV"
         }
     }
 ]
