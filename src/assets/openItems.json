@@ -3,12 +3,96 @@
         "id": 0,
         "parentId": null,
         "name": "root",
-        "title": "Test Node"
+        "title": "What kind of Open Item do you want to create?",
+        "children": [
+            {
+                "id": 1,
+                "parentId": 0,
+                "name": "One",
+                "title": "One Selected",
+                "children": []
+            }
+        ],
+        "model": {}
     },
     {
         "id": 1,
         "parentId": 0,
-        "name": "One",
-        "title": "One Selected"
+        "name": "Confirmatory Action",
+        "title": " ",
+        "children": [],
+        "model": {
+            "OpenItemTypeCode": "CAL"
+        }
+    },
+    {
+        "id": 2,
+        "parentId": 0,
+        "name": "Deviation",
+        "title": " ",
+        "model": {
+            "OpenItemTypeCode": "DEV"
+        },
+        "children": []
+    },
+    {
+        "id": 3,
+        "parentId": 0,
+        "children": [],
+        "name": "License Renewal Commitment",
+        "title": " ",
+        "model": {
+            "OpenItemTypeCode": "LRC"
+        }
+    },
+    {
+        "id": 4,
+        "parentId": 0,
+        "name": "Licensee Event Report",
+        "title": " ",
+        "model": {
+            "OpenItemTypeCode": "LER"
+        },
+        "children": []
+    },
+    {
+        "id": 5,
+        "parentId": 0,
+        "children": [],
+        "name": "Non-Conformance",
+        "title": " ",
+        "model": {
+            "OpenItemTypeCode": "NONC"
+        }
+    },
+    {
+        "id": 6,
+        "parentId": 0,
+        "name": "Order",
+        "title": " ",
+        "model": {
+            "OpenItemTypeCode": "OR"
+        },
+        "children": []
+    },
+    {
+        "id": 7,
+        "parentId": 0,
+        "name": "Safeguard Event Report",
+        "title": " ",
+        "model": {
+            "OpenItemTypeCode": "SER"
+        },
+        "children": []
+    },
+    {
+        "id": 8,
+        "parentId": 0,
+        "name": "Written Event Report",
+        "title": " ",
+        "model": {
+            "OpenItemTypeCode": "WER"
+        },
+        "children": []
     }
 ]
