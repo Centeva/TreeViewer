@@ -5214,7 +5214,7 @@
         "name": "Finding / Violation",
         "title": "Is Traditional Enforcement Required?",
         "model": {
-            "documentType": "FV"
+            "DocumentationTypeCode": "FV"
         }
     },
     {
@@ -5576,7 +5576,7 @@
         "name": "Enforcement Discretion",
         "title": " ",
         "model": {
-            "documentType": "ED",
+            "DocumentationTypeCode": "ED",
             "FindingTypeCode": "EDG"
         }
     },
@@ -5586,7 +5586,7 @@
         "name": "Open Unresolved Item (URI)",
         "title": " ",
         "model": {
-            "documentType": "URI",
+            "DocumentationTypeCode": "URI",
             "FindingTypeCode": "URI"
         }
     },
@@ -5672,44 +5672,6 @@
         }
     },
     {
-        "id": 4,
-        "parentId": 0,
-        "name": "Non-ROP Violation",
-        "title": "Specify the Violation",
-        "model": {
-            "documentType": "NROP",
-            "FindingTypeCode": "NROP",
-            "IsTE": "True"
-        }
-    },
-    {
-        "id": 643,
-        "parentId": 4,
-        "name": "Notice of Violation (NOV) (Severity Level IV)",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingEnforcementActionTypeCode": "NOVIV"
-        }
-    },
-    {
-        "id": 641,
-        "parentId": 4,
-        "name": "Non-cited Violation (NCV) (Severity Level IV)",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingEnforcementActionTypeCode": "NCVIV"
-        }
-    },
-    {
-        "id": 642,
-        "parentId": 4,
-        "name": "Apparent Violation (AV)",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingEnforcementActionTypeCode": "AV"
-        }
-    },
-    {
         "id": 7,
         "parentId": 6,
         "name": "Non-cited Violation (NCV)",
@@ -5729,6 +5691,47 @@
             "FindingEnforcementActionTypeCode": "NOV",
             "FindingTypeCode": "FWNTEV",
             "FindingSignificanceTypeCode": "GRN"
+        }
+    },
+    {
+        "id": 4,
+        "parentId": 0,
+        "name": "Non-ROP Violation",
+        "title": "Specify the Violation",
+        "model": {
+            "DocumentationTypeCode": "NROP",
+            "FindingTypeCode": "TEVWOF",
+            "IsTE": "True"
+        }
+    },
+    {
+        "id": 642,
+        "parentId": 4,
+        "name": "Apparent Violation (AV)",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingEnforcementActionTypeCode": "AV",
+            "FindingSeverityTypeCode": "APVIO"
+        }
+    },
+    {
+        "id": 641,
+        "parentId": 4,
+        "name": "Non-cited Violation (NCV) (Severity Level IV)",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingEnforcementActionTypeCode": "NCVIV",
+            "FindingSeverityTypeCode": "IV"
+        }
+    },
+    {
+        "id": 643,
+        "parentId": 4,
+        "name": "Notice of Violation (NOV) (Severity Level IV)",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingEnforcementActionTypeCode": "NOVIV",
+            "FindingSeverityTypeCode": "IV"
         }
     }
 ]
