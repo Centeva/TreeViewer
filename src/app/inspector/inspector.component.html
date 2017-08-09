@@ -10,6 +10,11 @@
     </md-input-container>
 
     <md-input-container>
+      <input mdInput name="ordinal" placeholder="Ordinal" [(ngModel)]="form.ordinal" pattern="[0-9]*">
+      <md-error>Must be a number!</md-error>
+    </md-input-container>
+
+    <md-input-container>
       <input mdInput name="parentId" placeholder="Parent Id" [(ngModel)]="form.parentId" pattern="[0-9]*">
       <md-error>Must be a number!</md-error>
     </md-input-container>

@@ -682,39 +682,12 @@
         }
     },
     {
-        "id": 119,
-        "parentId": 47,
-        "name": "Initiating Events",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "IE"
-        }
-    },
-    {
         "id": 120,
         "parentId": 47,
         "name": "Mitigation Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
-        }
-    },
-    {
-        "id": 121,
-        "parentId": 47,
-        "name": "Barrier Integrity",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "BI"
-        }
-    },
-    {
-        "id": 122,
-        "parentId": 47,
-        "name": "Emergency Preparedness",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "EP"
         }
     },
     {
@@ -5209,15 +5182,6 @@
         }
     },
     {
-        "id": 1,
-        "parentId": 0,
-        "name": "Finding / Violation",
-        "title": "Is Traditional Enforcement Required?",
-        "model": {
-            "DocumentationTypeCode": "FV"
-        }
-    },
-    {
         "id": 6,
         "parentId": 1,
         "name": "No",
@@ -5233,105 +5197,6 @@
         "title": "Specify the Violation",
         "model": {
             "IsTE": "Yes"
-        }
-    },
-    {
-        "id": 14,
-        "parentId": 8,
-        "name": "Pending Significance Enforcement Review Panel",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "PSERP"
-        }
-    },
-    {
-        "id": 18,
-        "parentId": 8,
-        "name": "Preliminary Greater than Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "PGTG"
-        }
-    },
-    {
-        "id": 17,
-        "parentId": 8,
-        "name": "Preliminary Red",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignifcanceType": "RED"
-        }
-    },
-    {
-        "id": 15,
-        "parentId": 8,
-        "name": "Preliminary White",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "WHITE"
-        }
-    },
-    {
-        "id": 16,
-        "parentId": 8,
-        "name": "Preliminary Yellow",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "YELLOW"
-        }
-    },
-    {
-        "id": 19,
-        "parentId": 10,
-        "name": "Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "GRN"
-        }
-    },
-    {
-        "id": 20,
-        "parentId": 10,
-        "name": "Pending Significance Enforcement Review Panel",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "PSERP"
-        }
-    },
-    {
-        "id": 24,
-        "parentId": 10,
-        "name": "Preliminary Greater than Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "PGTG"
-        }
-    },
-    {
-        "id": 23,
-        "parentId": 10,
-        "name": "Preliminary Red",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "RED"
-        }
-    },
-    {
-        "id": 22,
-        "parentId": 10,
-        "name": "Preliminary Yellow",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "YELLOW"
-        }
-    },
-    {
-        "id": 21,
-        "parentId": 10,
-        "name": "Preliminary white",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "WHITE"
         }
     },
     {
@@ -5371,26 +5236,6 @@
         }
     },
     {
-        "id": 32,
-        "parentId": 12,
-        "name": "Minor Performance Deficiency",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "MINRPD",
-            "FindingTypeCode": "TEVWOF"
-        }
-    },
-    {
-        "id": 31,
-        "parentId": 12,
-        "name": "No Performance Deficiency",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "NOPD",
-            "FindingTypeCode": "TEVWOF"
-        }
-    },
-    {
         "id": 33,
         "parentId": 12,
         "name": "Green",
@@ -5398,96 +5243,6 @@
         "model": {
             "FindingSignificanceTypeCode": "GRN",
             "FindingTypeCode": "TEVWFI"
-        }
-    },
-    {
-        "id": 34,
-        "parentId": 12,
-        "name": "Pending Significance Enforcement Review Panel",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "PSERP",
-            "FindingTypeCode": "TEVWFI"
-        }
-    },
-    {
-        "id": 38,
-        "parentId": 12,
-        "name": "Preliminary Greater than Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "PGTG",
-            "FindingTypeCode": "TEVWFI"
-        }
-    },
-    {
-        "id": 37,
-        "parentId": 12,
-        "name": "Preliminary Red",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "RED",
-            "FindingTypeCode": "TEVWFI"
-        }
-    },
-    {
-        "id": 35,
-        "parentId": 12,
-        "name": "Preliminary White",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "WHITE",
-            "FindingTypeCode": "TEVWFI"
-        }
-    },
-    {
-        "id": 36,
-        "parentId": 12,
-        "name": "Preliminary Yellow",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "YELLOW",
-            "FindingTypeCode": "TEVWFI"
-        }
-    },
-    {
-        "id": 43,
-        "parentId": 13,
-        "name": "Minor Performance Deficiency",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "MINRPD",
-            "FindingTypeCode": "TEVWOF"
-        }
-    },
-    {
-        "id": 42,
-        "parentId": 13,
-        "name": "No Performance Deficiency",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "NOPD",
-            "FindingTypeCode": "TEVWOF"
-        }
-    },
-    {
-        "id": 44,
-        "parentId": 13,
-        "name": "Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "GRN",
-            "FindingTypeCode": "TEVWFI"
-        }
-    },
-    {
-        "id": 39,
-        "parentId": 11,
-        "name": "No Performance Deficiency",
-        "title": "Specify Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "NOPD",
-            "FindingTypeCode": "TEVWOF"
         }
     },
     {
@@ -5501,16 +5256,6 @@
         }
     },
     {
-        "id": 40,
-        "parentId": 11,
-        "name": "Minor Performance Deficiency",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "MINRPD",
-            "FindingTypeCode": "TEVWOF"
-        }
-    },
-    {
         "id": 106,
         "parentId": 40,
         "name": "Licensee",
@@ -5518,16 +5263,6 @@
         "model": {
             "FindingIdentificationTypeCode": "LI",
             "FindingTypeCode": "LIV"
-        }
-    },
-    {
-        "id": 41,
-        "parentId": 11,
-        "name": "Green",
-        "title": "Specify the Identification",
-        "model": {
-            "FindingSignificanceTypeCode": "GRN",
-            "FindingTypeCode": "TEVWFI"
         }
     },
     {
@@ -5558,36 +5293,6 @@
         "model": {
             "FindingEnforcementActionTypeCode": "AV",
             "FindingTypeCode": "FWNTEV"
-        }
-    },
-    {
-        "id": 10,
-        "parentId": 6,
-        "name": "Finding without a violation (FIN)",
-        "title": "Specify the Significance",
-        "model": {
-            "FindingEnforcementActionTypeCode": "FIN",
-            "FindingTypeCode": "FWOV"
-        }
-    },
-    {
-        "id": 3,
-        "parentId": 0,
-        "name": "Enforcement Discretion",
-        "title": " ",
-        "model": {
-            "DocumentationTypeCode": "ED",
-            "FindingTypeCode": "EDG"
-        }
-    },
-    {
-        "id": 2,
-        "parentId": 0,
-        "name": "Open Unresolved Item (URI)",
-        "title": " ",
-        "model": {
-            "DocumentationTypeCode": "URI",
-            "FindingTypeCode": "URI"
         }
     },
     {
@@ -5694,17 +5399,6 @@
         }
     },
     {
-        "id": 4,
-        "parentId": 0,
-        "name": "Non-ROP Violation",
-        "title": "Specify the Violation",
-        "model": {
-            "DocumentationTypeCode": "NROP",
-            "FindingTypeCode": "TEVWOF",
-            "IsTE": "True"
-        }
-    },
-    {
         "id": 642,
         "parentId": 4,
         "name": "Apparent Violation (AV)",
@@ -5733,5 +5427,342 @@
             "FindingEnforcementActionTypeCode": "NOVIV",
             "FindingSeverityTypeCode": "IV"
         }
+    },
+    {
+        "id": 10,
+        "parentId": 6,
+        "name": "Finding without a Violation (FIN)",
+        "title": "Specify the Significance",
+        "model": {
+            "FindingEnforcementActionTypeCode": "FIN",
+            "FindingTypeCode": "FWOV"
+        }
+    },
+    {
+        "id": 121,
+        "parentId": 47,
+        "name": "Barrier Integrity",
+        "title": " ",
+        "model": {
+            "FindingCornerstoneTypeCode": "BI"
+        },
+        "ordinal": "1"
+    },
+    {
+        "id": 122,
+        "parentId": 47,
+        "name": "Emergency Preparedness",
+        "title": " ",
+        "model": {
+            "FindingCornerstoneTypeCode": "EP"
+        },
+        "ordinal": "2"
+    },
+    {
+        "id": 119,
+        "parentId": 47,
+        "name": "Initiating Events",
+        "title": " ",
+        "model": {
+            "FindingCornerstoneTypeCode": "IE"
+        },
+        "ordinal": "3"
+    },
+    {
+        "id": 42,
+        "parentId": 13,
+        "name": "No Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "NOPD",
+            "FindingTypeCode": "TEVWOF"
+        },
+        "ordinal": "1"
+    },
+    {
+        "id": 44,
+        "parentId": 13,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "GRN",
+            "FindingTypeCode": "TEVWFI"
+        },
+        "ordinal": "3"
+    },
+    {
+        "id": 43,
+        "parentId": 13,
+        "name": "Minor Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "MINRPD",
+            "FindingTypeCode": "TEVWOF"
+        },
+        "ordinal": "2"
+    },
+    {
+        "id": 41,
+        "parentId": 11,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "GRN",
+            "FindingTypeCode": "TEVWFI"
+        },
+        "ordinal": "3"
+    },
+    {
+        "id": 40,
+        "parentId": 11,
+        "name": "Minor Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "MINRPD",
+            "FindingTypeCode": "TEVWOF"
+        },
+        "ordinal": "2"
+    },
+    {
+        "id": 39,
+        "parentId": 11,
+        "name": "No Performance Deficiency",
+        "title": "Specify Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "NOPD",
+            "FindingTypeCode": "TEVWOF"
+        },
+        "ordinal": "1"
+    },
+    {
+        "id": 36,
+        "parentId": 12,
+        "name": "Preliminary Yellow",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PY",
+            "FindingTypeCode": "TEVWFI"
+        },
+        "ordinal": "6"
+    },
+    {
+        "id": 35,
+        "parentId": 12,
+        "name": "Preliminary White",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PW",
+            "FindingTypeCode": "TEVWFI"
+        },
+        "ordinal": "5"
+    },
+    {
+        "id": 37,
+        "parentId": 12,
+        "name": "Preliminary Red",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PR",
+            "FindingTypeCode": "TEVWFI"
+        },
+        "ordinal": "7"
+    },
+    {
+        "id": 38,
+        "parentId": 12,
+        "name": "Preliminary Greater than Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PGTG",
+            "FindingTypeCode": "TEVWFI"
+        },
+        "ordinal": "8"
+    },
+    {
+        "id": 34,
+        "parentId": 12,
+        "name": "Pending Significance Enforcement Review Panel",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PSERP",
+            "FindingTypeCode": "TEVWFI"
+        },
+        "ordinal": "4"
+    },
+    {
+        "id": 31,
+        "parentId": 12,
+        "name": "No Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "NOPD",
+            "FindingTypeCode": "TEVWOF"
+        },
+        "ordinal": "1"
+    },
+    {
+        "id": 32,
+        "parentId": 12,
+        "name": "Minor Performance Deficiency",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "MINRPD",
+            "FindingTypeCode": "TEVWOF"
+        },
+        "ordinal": "2"
+    },
+    {
+        "id": 21,
+        "parentId": 10,
+        "name": "Preliminary White",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PW"
+        },
+        "ordinal": "5"
+    },
+    {
+        "id": 22,
+        "parentId": 10,
+        "name": "Preliminary Yellow",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PY"
+        },
+        "ordinal": "6"
+    },
+    {
+        "id": 23,
+        "parentId": 10,
+        "name": "Preliminary Red",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PR"
+        },
+        "ordinal": "7"
+    },
+    {
+        "id": 24,
+        "parentId": 10,
+        "name": "Preliminary Greater than Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PGTG"
+        },
+        "ordinal": "8"
+    },
+    {
+        "id": 20,
+        "parentId": 10,
+        "name": "Pending Significance Enforcement Review Panel",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PSERP"
+        },
+        "ordinal": "4"
+    },
+    {
+        "id": 19,
+        "parentId": 10,
+        "name": "Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "GRN"
+        },
+        "ordinal": "3"
+    },
+    {
+        "id": 16,
+        "parentId": 8,
+        "name": "Preliminary Yellow",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PY"
+        },
+        "ordinal": "6"
+    },
+    {
+        "id": 15,
+        "parentId": 8,
+        "name": "Preliminary White",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PW"
+        },
+        "ordinal": "5"
+    },
+    {
+        "id": 17,
+        "parentId": 8,
+        "name": "Preliminary Red",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignifcanceType": "PR"
+        },
+        "ordinal": "7"
+    },
+    {
+        "id": 18,
+        "parentId": 8,
+        "name": "Preliminary Greater than Green",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PGTG"
+        },
+        "ordinal": "8"
+    },
+    {
+        "id": 14,
+        "parentId": 8,
+        "name": "Pending Significance Enforcement Review Panel",
+        "title": "Specify the Identification",
+        "model": {
+            "FindingSignificanceTypeCode": "PSERP"
+        },
+        "ordinal": "4"
+    },
+    {
+        "id": 2,
+        "parentId": 0,
+        "name": "Open Unresolved Item (URI)",
+        "title": " ",
+        "model": {
+            "DocumentationTypeCode": "URI",
+            "FindingTypeCode": "URI"
+        },
+        "ordinal": "2"
+    },
+    {
+        "id": 3,
+        "parentId": 0,
+        "name": "Enforcement Discretion",
+        "title": " ",
+        "model": {
+            "DocumentationTypeCode": "ED",
+            "FindingTypeCode": "EDG"
+        },
+        "ordinal": "3"
+    },
+    {
+        "id": 1,
+        "parentId": 0,
+        "name": "Finding / Violation",
+        "title": "Is Traditional Enforcement Required?",
+        "model": {
+            "DocumentationTypeCode": "FV"
+        },
+        "ordinal": "1"
+    },
+    {
+        "id": 4,
+        "parentId": 0,
+        "name": "Non-ROP Violation",
+        "title": "Specify the Violation",
+        "model": {
+            "DocumentationTypeCode": "NROP",
+            "FindingTypeCode": "NROP",
+            "IsTE": "True"
+        },
+        "ordinal": "4"
     }
 ]

@@ -86,9 +86,11 @@ export class InspectorComponent<T> implements OnInit {
 }
 
 class NodeForm {
+  id: number;
   parentId: number;
   name: string;
   title: string;
+  ordinal: number;
   model: any;
   refId: number;
 }

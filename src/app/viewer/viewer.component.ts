@@ -40,8 +40,7 @@ export class ViewerComponent<T> implements OnInit {
   constructor(private treeService: TreeService, private nodeService: NodeService) { }
 
   buildChildren(tree: node<T>[] = [], filteredTree: node<T>[] = tree): node<T>[] {
-    // tslint:disable-next-line:max-line-length
-    return _.sortBy(filteredTree.map(n => ({ ...n, children: this.fillRefs(this.buildChildren(tree, tree.filter(m => m.parentId === n.id))) })), n => n.name);
+    return _.sortBy(filteredTree.map(n => ({ ...n, children: this.fillRefs(this.buildChildren(tree, tree.filter(m => m.parentId === n.id))) })), n => +n.ordinal);
   }
 
   fillRefs(tree: node<T>[] = []): node<T>[] {
