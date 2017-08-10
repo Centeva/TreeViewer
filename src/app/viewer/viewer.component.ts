@@ -97,7 +97,6 @@ export class ViewerComponent<T> implements OnInit {
       .data(nodes.descendants())
       .enter().append('g')
       .attr('class', d => {
-        console.log(`${d.data.id}: ${this.nodeService.getValue().id}`);
         return 'node' +
           (d.children ? ' node--internal' : ' node--leaf') +
           (d.data.id === this.nodeService.getValue().id ? ' active' : '');
