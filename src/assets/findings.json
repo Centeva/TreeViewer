@@ -43,15 +43,6 @@
         }
     },
     {
-        "id": 30,
-        "parentId": 9,
-        "name": "Licensee",
-        "title": "Specify the Cornerstone",
-        "model": {
-            "FindingIdentificationTypeCode": "LI"
-        }
-    },
-    {
         "id": 46,
         "parentId": 14,
         "name": "Self Revealed",
@@ -619,30 +610,12 @@
         }
     },
     {
-        "id": 112,
-        "parentId": 44,
-        "name": "Licensee",
-        "title": "Specify the Cornerstone",
-        "model": {
-            "FindingIdentificationTypeCode": "LI"
-        }
-    },
-    {
         "id": 113,
         "parentId": 43,
         "name": "NRC",
         "title": " ",
         "model": {
             "FindingIdentificationTypeCode": "NRCI"
-        }
-    },
-    {
-        "id": 114,
-        "parentId": 43,
-        "name": "Licensee",
-        "title": " ",
-        "model": {
-            "FindingIdentificationTypeCode": "LI"
         }
     },
     {
@@ -664,15 +637,6 @@
         }
     },
     {
-        "id": 117,
-        "parentId": 42,
-        "name": "Licensee",
-        "title": " ",
-        "model": {
-            "FindingIdentificationTypeCode": "LI"
-        }
-    },
-    {
         "id": 118,
         "parentId": 42,
         "name": "Self Revealed",
@@ -684,7 +648,7 @@
     {
         "id": 120,
         "parentId": 47,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -729,7 +693,7 @@
     {
         "id": 127,
         "parentId": 45,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -792,7 +756,7 @@
     {
         "id": 134,
         "parentId": 46,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -855,7 +819,7 @@
     {
         "id": 141,
         "parentId": 50,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -918,7 +882,7 @@
     {
         "id": 148,
         "parentId": 48,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -981,7 +945,7 @@
     {
         "id": 155,
         "parentId": 49,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1044,7 +1008,7 @@
     {
         "id": 162,
         "parentId": 53,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1107,7 +1071,7 @@
     {
         "id": 169,
         "parentId": 51,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1170,7 +1134,7 @@
     {
         "id": 176,
         "parentId": 52,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1233,7 +1197,7 @@
     {
         "id": 183,
         "parentId": 56,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1296,7 +1260,7 @@
     {
         "id": 190,
         "parentId": 54,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1359,7 +1323,7 @@
     {
         "id": 197,
         "parentId": 55,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1422,7 +1386,7 @@
     {
         "id": 204,
         "parentId": 57,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1485,7 +1449,7 @@
     {
         "id": 211,
         "parentId": 58,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1548,7 +1512,7 @@
     {
         "id": 218,
         "parentId": 59,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1611,7 +1575,7 @@
     {
         "id": 225,
         "parentId": 60,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1674,7 +1638,7 @@
     {
         "id": 232,
         "parentId": 61,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1737,7 +1701,7 @@
     {
         "id": 239,
         "parentId": 64,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1800,7 +1764,7 @@
     {
         "id": 246,
         "parentId": 62,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1863,7 +1827,7 @@
     {
         "id": 253,
         "parentId": 63,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1926,7 +1890,7 @@
     {
         "id": 260,
         "parentId": 67,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -1989,7 +1953,7 @@
     {
         "id": 267,
         "parentId": 65,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2052,7 +2016,7 @@
     {
         "id": 274,
         "parentId": 66,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2115,7 +2079,7 @@
     {
         "id": 281,
         "parentId": 70,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2178,7 +2142,7 @@
     {
         "id": 288,
         "parentId": 68,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2241,7 +2205,7 @@
     {
         "id": 295,
         "parentId": 69,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2304,7 +2268,7 @@
     {
         "id": 302,
         "parentId": 73,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2367,7 +2331,7 @@
     {
         "id": 309,
         "parentId": 71,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2430,7 +2394,7 @@
     {
         "id": 316,
         "parentId": 72,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2493,7 +2457,7 @@
     {
         "id": 323,
         "parentId": 76,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2556,7 +2520,7 @@
     {
         "id": 330,
         "parentId": 74,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2619,7 +2583,7 @@
     {
         "id": 337,
         "parentId": 75,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2682,7 +2646,7 @@
     {
         "id": 345,
         "parentId": 79,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2745,7 +2709,7 @@
     {
         "id": 352,
         "parentId": 77,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2808,7 +2772,7 @@
     {
         "id": 359,
         "parentId": 78,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2871,7 +2835,7 @@
     {
         "id": 366,
         "parentId": 28,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2934,7 +2898,7 @@
     {
         "id": 373,
         "parentId": 29,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -2997,7 +2961,7 @@
     {
         "id": 388,
         "parentId": 25,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3060,7 +3024,7 @@
     {
         "id": 395,
         "parentId": 26,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3112,69 +3076,6 @@
         }
     },
     {
-        "id": 401,
-        "parentId": 30,
-        "name": "Initiating Events",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "IE"
-        }
-    },
-    {
-        "id": 402,
-        "parentId": 30,
-        "name": "Mitigation Systems",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "MS"
-        }
-    },
-    {
-        "id": 403,
-        "parentId": 30,
-        "name": "Barrier Integrity",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "BI"
-        }
-    },
-    {
-        "id": 404,
-        "parentId": 30,
-        "name": "Emergency Preparedness",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "EP"
-        }
-    },
-    {
-        "id": 405,
-        "parentId": 30,
-        "name": "Occupational Radiation Safety",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "ORS"
-        }
-    },
-    {
-        "id": 406,
-        "parentId": 30,
-        "name": "Public Radiation Safety",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "PRS"
-        }
-    },
-    {
-        "id": 407,
-        "parentId": 30,
-        "name": "Security",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "SEC"
-        }
-    },
-    {
         "id": 408,
         "parentId": 87,
         "name": "Initiating Events",
@@ -3186,7 +3087,7 @@
     {
         "id": 409,
         "parentId": 87,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3249,7 +3150,7 @@
     {
         "id": 416,
         "parentId": 86,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3312,7 +3213,7 @@
     {
         "id": 423,
         "parentId": 88,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3375,7 +3276,7 @@
     {
         "id": 430,
         "parentId": 89,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3438,7 +3339,7 @@
     {
         "id": 437,
         "parentId": 91,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3501,7 +3402,7 @@
     {
         "id": 444,
         "parentId": 90,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3564,7 +3465,7 @@
     {
         "id": 451,
         "parentId": 93,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3627,7 +3528,7 @@
     {
         "id": 458,
         "parentId": 92,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3690,7 +3591,7 @@
     {
         "id": 465,
         "parentId": 94,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3753,7 +3654,7 @@
     {
         "id": 472,
         "parentId": 97,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3816,7 +3717,7 @@
     {
         "id": 479,
         "parentId": 96,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3879,7 +3780,7 @@
     {
         "id": 486,
         "parentId": 98,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -3942,7 +3843,7 @@
     {
         "id": 493,
         "parentId": 100,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4005,7 +3906,7 @@
     {
         "id": 500,
         "parentId": 99,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4068,7 +3969,7 @@
     {
         "id": 507,
         "parentId": 103,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4131,7 +4032,7 @@
     {
         "id": 515,
         "parentId": 101,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4194,7 +4095,7 @@
     {
         "id": 522,
         "parentId": 102,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4257,7 +4158,7 @@
     {
         "id": 529,
         "parentId": 106,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4320,7 +4221,7 @@
     {
         "id": 536,
         "parentId": 104,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4383,7 +4284,7 @@
     {
         "id": 550,
         "parentId": 105,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4446,7 +4347,7 @@
     {
         "id": 557,
         "parentId": 109,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4509,7 +4410,7 @@
     {
         "id": 564,
         "parentId": 107,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4572,7 +4473,7 @@
     {
         "id": 571,
         "parentId": 108,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4624,69 +4525,6 @@
         }
     },
     {
-        "id": 577,
-        "parentId": 112,
-        "name": "Initiating Events",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "IE"
-        }
-    },
-    {
-        "id": 578,
-        "parentId": 112,
-        "name": "Mitigation Systems",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "MS"
-        }
-    },
-    {
-        "id": 579,
-        "parentId": 112,
-        "name": "Barrier Integrity",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "BI"
-        }
-    },
-    {
-        "id": 580,
-        "parentId": 112,
-        "name": "Emergency Preparedness",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "EP"
-        }
-    },
-    {
-        "id": 581,
-        "parentId": 112,
-        "name": "Occupational Radiation Safety",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "ORS"
-        }
-    },
-    {
-        "id": 582,
-        "parentId": 112,
-        "name": "Public Radiation Safety",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "PRS"
-        }
-    },
-    {
-        "id": 583,
-        "parentId": 112,
-        "name": "Security",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "SEC"
-        }
-    },
-    {
         "id": 584,
         "parentId": 110,
         "name": "Initiating Events",
@@ -4698,7 +4536,7 @@
     {
         "id": 585,
         "parentId": 110,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4761,7 +4599,7 @@
     {
         "id": 592,
         "parentId": 111,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4813,69 +4651,6 @@
         }
     },
     {
-        "id": 598,
-        "parentId": 114,
-        "name": "Initiating Events",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "IE"
-        }
-    },
-    {
-        "id": 599,
-        "parentId": 114,
-        "name": "Mitigation Systems",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "MS"
-        }
-    },
-    {
-        "id": 600,
-        "parentId": 114,
-        "name": "Barrier Integrity",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "BI"
-        }
-    },
-    {
-        "id": 601,
-        "parentId": 114,
-        "name": "Emergency Preparedness",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "EP"
-        }
-    },
-    {
-        "id": 602,
-        "parentId": 114,
-        "name": "Occupational Radiation Safety",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "ORS"
-        }
-    },
-    {
-        "id": 603,
-        "parentId": 114,
-        "name": "Public Radiation Safety",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "PRS"
-        }
-    },
-    {
-        "id": 604,
-        "parentId": 114,
-        "name": "Security",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "SEC"
-        }
-    },
-    {
         "id": 605,
         "parentId": 113,
         "name": "Initiating Events",
@@ -4887,7 +4662,7 @@
     {
         "id": 607,
         "parentId": 113,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -4950,7 +4725,7 @@
     {
         "id": 614,
         "parentId": 115,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -5002,60 +4777,6 @@
         }
     },
     {
-        "id": 620,
-        "parentId": 117,
-        "name": "Initiating Events",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "IE"
-        }
-    },
-    {
-        "id": 621,
-        "parentId": 117,
-        "name": "Mitigation Systems",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "MS"
-        }
-    },
-    {
-        "id": 622,
-        "parentId": 117,
-        "name": "Barrier Integrity",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "BI"
-        }
-    },
-    {
-        "id": 624,
-        "parentId": 117,
-        "name": "Occupational Radiation Safety",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "ORS"
-        }
-    },
-    {
-        "id": 625,
-        "parentId": 117,
-        "name": "Public Radiation Safety",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "PRS"
-        }
-    },
-    {
-        "id": 626,
-        "parentId": 117,
-        "name": "Security",
-        "title": " ",
-        "model": {
-            "FindingCornerstoneTypeCode": "SEC"
-        }
-    },
-    {
         "id": 627,
         "parentId": 116,
         "name": "Initiating Events",
@@ -5067,7 +4788,7 @@
     {
         "id": 628,
         "parentId": 116,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -5130,7 +4851,7 @@
     {
         "id": 635,
         "parentId": 118,
-        "name": "Mitigation Systems",
+        "name": "Mitigating Systems",
         "title": " ",
         "model": {
             "FindingCornerstoneTypeCode": "MS"
@@ -5347,15 +5068,6 @@
         "title": " ",
         "model": {
             "FindingIdentificationTypeCode": "NRCI"
-        }
-    },
-    {
-        "id": 650,
-        "parentId": 643,
-        "name": "Licensee",
-        "title": " ",
-        "model": {
-            "FindingIdentificationTypeCode": "LI"
         }
     },
     {
