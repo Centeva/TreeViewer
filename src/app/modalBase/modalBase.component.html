@@ -1,0 +1,15 @@
+<!--<button class="btn btn-primary debug" (click)="debug()">open</button>-->
+<div>
+	<div class="main" [@slideDown]="getState()">
+		<div *ngIf="modalData?.header || modalData?.canClose"  class="header" auto-elipsis>
+			<button *ngIf="modalData?.canClose" class="modal-close btn btn-text pull-right" (click)="onClose();">CLOSE<i class="fa fa-times pad-left-md"></i></button>
+			<h3>
+				{{modalData?.header}}
+			</h3>
+		</div>
+		<div class="body">
+			<div #body></div>
+		</div>
+	</div>
+	<div class="background" *ngIf="modalData?.active" [@fadeIn]="getState()"></div>
+</div>

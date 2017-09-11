@@ -1,0 +1,73 @@
+@import "../../../../style/variables.less";
+
+.background {
+	display: inline-block;
+	position: absolute;
+	width: 100vw;
+    min-height: 100vh;
+    background-color: @gray;
+    opacity: 0.5;
+	z-index: 90000;
+}
+
+.main {
+	min-width: 40vw;
+	min-height: 10vh;
+	max-height: 80vh;
+	display: inline-block;
+	position: absolute;
+	border: 1px solid @gray;
+	border-radius: 0px;
+	background-color: white;
+	z-index: 100000;
+	transform: translateX(-50%);
+	margin-left: 50vw;
+	margin-top: 10vh;
+	padding-bottom: 4px;
+}
+
+.modal-close {
+	color: @gray-light;
+	&:hover {
+		color: @gray;
+	}
+}
+
+@header-height: 42px;
+
+.body {
+	margin-top: 4px;
+	padding: 6px 16px 10px 16px;
+	max-height: calc(~'80vh -' @header-height + 8px);
+	overflow-y: auto;
+	// min-height: 50vh; I removed this so the CreateFavorite modal would look normal (It didn't need all of the extra space) but I don't know what UX wants our modals to look like.
+}
+
+.debug {
+	z-index: 100000;
+	position: fixed;
+}
+
+.header {
+	height: @header-height;
+	padding-left: @pad-mar-lg;
+
+	& > h3 {
+		color: @brand-blue;
+		margin-top: 8px;
+    	margin-bottom: 8px;
+	}
+}
+
+.wrapper {
+	position: absolute;
+	z-index: 4200000;
+	width: 100vw;
+	height: 100vh;
+}
+
+@media (max-width: @screen-sm-min) {
+	.main {
+		width: 98vw;
+	}
+}
