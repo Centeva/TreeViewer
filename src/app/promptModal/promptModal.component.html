@@ -1,0 +1,3 @@
+<h4>{{message}}</h4>
+<button *ngIf="actionFunction && actionName" class="btn add-item" (click)="actionFunction();" type="button">{{actionName}}</button>
+<button *ngIf="utilFunction && utilName" type="button" (click)="utilFunction();" class="cancel"><i *ngIf="utilIcon" class="{{utilIcon}}"></i>{{utilName}}</button>
