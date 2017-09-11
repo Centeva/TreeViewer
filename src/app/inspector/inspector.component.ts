@@ -79,16 +79,37 @@ export class InspectorComponent<T> implements OnInit {
   delete() {
     const form = this.form as node<any>;
     const tree: node<any>[] = this.treeService.getValue();
+
+    console.log(tree);
+    const deleted = tree.filter(n => !this.deleteFromTree(tree, [form]).some(c => c.id === n.id));
+    console.log(deleted);
+
     this.nodeService.next(tree.find(n => n.parentId === null));
-    this.treeService.next(tree.filter(n => n.id !== form.id));
+    this.treeService.next(deleted);
+  }
+
+  deleteFromTree(tree: node<any>[], children: node<any>[]) {
+    const layer: node<any>[] = [];
+    for (const child of tree) {
+      if (children.some(c => c.id === child.parentId || c.id === child.id)) {
+        layer.push(child);
+      }
+    }
+
+    if (layer.length > 0) {
+      layer.push(...this.deleteFromTree(tree.filter(n => !children.some(c => c.id === n.id)), layer));
+    }
+    return layer;
   }
 
 }
 
 class NodeForm {
+  id: number;
   parentId: number;
   name: string;
   title: string;
+  ordinal: number;
   model: any;
   refId: number;
 }

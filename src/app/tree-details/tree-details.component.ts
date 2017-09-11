@@ -5,8 +5,7 @@ import { Http } from '@angular/http';
 import { FileDefinition } from '../tree-list/tree-list.component';
 import { TreeService } from '../tree.service';
 
-// tslint:disable-next-line:interface-over-type-literal
-export type node<T> = { id: number, refId?: number, name: string, title: string, children?: node<T>[], parentId: number, model: T };
+export interface node<T> { id: number; refId?: number; name: string; title: string; children?: node<T>[]; parentId: number; model: T; ordinal?: number; }
 
 @Component({
   selector: 'app-tree-details',
@@ -21,7 +20,6 @@ export class TreeDetailsComponent<T> implements OnInit {
   ngOnInit() {
     this.activatedRoute.params.subscribe(p => {
       this.http.get('../../assets/index.json').subscribe(i => {
-        // tslint:disable-next-line:max-line-length
         this.http.get((i.json() as FileDefinition[]).find(d => d.id === +p['id']).path).subscribe(tree => this.treeService.next(tree.json()));
       });
     });
