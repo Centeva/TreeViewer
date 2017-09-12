@@ -4,6 +4,7 @@ import { Http } from '@angular/http';
 
 import { FileDefinition } from '../tree-list/tree-list.component';
 import { TreeService } from '../tree.service';
+import { DefinitionService } from '../definition.service';
 
 export interface node<T> { id: number; refId?: number; name: string; title: string; children?: node<T>[]; parentId: number; model: T; ordinal?: number; }
 
@@ -14,13 +15,13 @@ export interface node<T> { id: number; refId?: number; name: string; title: stri
 })
 export class TreeDetailsComponent<T> implements OnInit {
 
-  constructor(private activatedRoute: ActivatedRoute, private http: Http, private treeService: TreeService) { }
+  constructor(private activatedRoute: ActivatedRoute, private http: Http, private definitionService: DefinitionService, private treeService: TreeService) { }
   tree: node<T>[] = [];
 
   ngOnInit() {
     this.activatedRoute.params.subscribe(p => {
-      this.http.get('../../assets/index.json').subscribe(i => {
-        this.http.get((i.json() as FileDefinition[]).find(d => d.id === +p['id']).path).subscribe(tree => this.treeService.next(tree.json()));
+      this.definitionService.filter(i => i.length > 0).subscribe(i => {
+        this.http.get('/api/getFile/' + encodeURIComponent(`${(i).find(d => d.id === p['id']).path}`)).subscribe(tree => this.treeService.next(tree.json()));
       });
     });
   }

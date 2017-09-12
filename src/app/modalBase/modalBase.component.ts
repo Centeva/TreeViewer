@@ -17,7 +17,7 @@ import { Subscription } from 'rxjs';
 import { PromptModalComponent } from '../promptModal';
 import { ModalData } from '../modalData';
 import { ModalService } from '../modal.service';
-import { ModalModule } from '../Modal.module';
+import { ModalModule } from '../modal.module';
 
 @Component({
   selector: 'modal-base',
