@@ -1,0 +1,15 @@
+<form #definitionForm="ngForm">
+  <md-input-container>
+    <input mdInput name="name" placeholder="Name" autofocus #focusable [(ngModel)]="form.name" required>
+  </md-input-container>
+
+  <md-input-container>
+    <input mdInput name="desc" placeholder="Desc" [(ngModel)]="form.desc" required>
+  </md-input-container>
+
+  <md-input-container>
+    <input mdInput name="path" placeholder="Path" [(ngModel)]="form.path" required>
+  </md-input-container>
+
+  <button md-button [disabled]="!definitionForm.valid" (click)="onSubmit()" id="saved-btn">Save</button>
+</form>

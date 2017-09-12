@@ -16,6 +16,9 @@ import { TreeListItemComponent } from './tree-list-item/tree-list-item.component
 import { NodeService } from './node.service';
 import { TreeService } from './tree.service';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { ModalService } from './modal.service';
+import { ModalBaseComponent } from './modalBase/modalBase.component';
+import { DefinitionService } from './definition.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     InspectorComponent,
     TreeListComponent,
     TreeDetailsComponent,
-    TreeListItemComponent
+    TreeListItemComponent,
+    ModalBaseComponent
   ],
   imports: [
     MdToolbarModule,
@@ -35,6 +39,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     MdButtonModule,
     MdInputModule,
     MdTableModule,
+    MdToolbarModule,
     CdkTableModule,
     BrowserModule,
     FormsModule,
@@ -46,6 +51,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
   providers: [
     NodeService,
     TreeService,
+    ModalService,
+    DefinitionService,
     {provide: LocationStrategy, useClass: HashLocationStrategy}
   ],
   bootstrap: [ AppComponent ]

@@ -1,2 +1,8 @@
-<md-toolbar>File Definitions list</md-toolbar>
+<md-toolbar>
+    <span> File Definitions list </span>
+    <span class="fill"></span>
+    <span>
+        <button md-button [mdTooltipPosition]="'above'" mdTooltip="Create a new file definition" (click)="createNew()"><i class="fa fa-plus"></i> New</button>
+    </span>
+</md-toolbar>
 <app-tree-list-item *ngFor="let item of list" [definition]="item"></app-tree-list-item>

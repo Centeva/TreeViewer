@@ -5,6 +5,9 @@ import { TreeService } from '../tree.service';
 import * as Clipboard from 'clipboard';
 import { MdSnackBar } from '@angular/material';
 import * as _ from 'lodash';
+import { ActivatedRoute } from '@angular/router';
+import { Http } from '@angular/http';
+import { DefinitionService } from '../definition.service';
 
 @Component({
   selector: 'app-inspector',
@@ -16,7 +19,7 @@ export class InspectorComponent<T> implements OnInit {
   form: NodeForm = new NodeForm();
   modelPairs: { key: string, value: string }[] = [];
 
-  constructor(private nodeService: NodeService, private treeService: TreeService, private snackBar: MdSnackBar) { }
+  constructor(private nodeService: NodeService, private treeService: TreeService, private snackBar: MdSnackBar, private definitionService: DefinitionService, private activatedRoute: ActivatedRoute, private http: Http) { }
 
   get show() {
     return JSON.stringify(this.currentNode) || 'None';
@@ -56,13 +59,17 @@ export class InspectorComponent<T> implements OnInit {
   }
 
   onSubmit() {
-    console.log('Submit!');
     // tslint:disable-next-line:prefer-const
     let form = this.form as node<any>;
     form.model = {};
     this.modelPairs.map(p => ({ [p.key]: p.value })).forEach(p => Object.assign(form.model, p));
     this.treeService.next([...this.treeService.getValue().filter(n => n.id !== form.id), form]);
     this.nodeService.next(form);
+    this.activatedRoute.params.subscribe(p => {
+      this.definitionService.filter(i => i.length > 0).subscribe(i => {
+        this.http.post('/api/setFile/' + encodeURIComponent(`${(i).find(d => d.id === p['id']).path}`), this.treeService.get()).subscribe();
+      });
+    });
     this.snackBar.open('Saved node!', null, { duration: 1000 });
   }
 

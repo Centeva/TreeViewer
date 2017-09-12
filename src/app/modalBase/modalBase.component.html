@@ -1,12 +1,19 @@
 <!--<button class="btn btn-primary debug" (click)="debug()">open</button>-->
 <div>
 	<div class="main" [@slideDown]="getState()">
-		<div *ngIf="modalData?.header || modalData?.canClose"  class="header" auto-elipsis>
-			<button *ngIf="modalData?.canClose" class="modal-close btn btn-text pull-right" (click)="onClose();">CLOSE<i class="fa fa-times pad-left-md"></i></button>
+		<!-- <div *ngIf="modalData?.header || modalData?.canClose"  class="header" auto-elipsis>
+			<button md-button *ngIf="modalData?.canClose" class="modal-close pull-right" (click)="onClose();">Close <i class="fa fa-times pad-left-md"></i></button>
 			<h3>
 				{{modalData?.header}}
 			</h3>
-		</div>
+		</div> -->
+		<md-toolbar *ngIf="modalData?.header || modalData?.canClose">
+			<span> {{modalData?.header}} </span>
+			<span class="fill"></span>
+			<span>
+				<button md-button *ngIf="modalData?.canClose" (click)="onClose()"><i class="fa fa-times"></i> Close</button>
+			</span>
+		</md-toolbar>
 		<div class="body">
 			<div #body></div>
 		</div>
