@@ -5,7 +5,7 @@ import * as uuid from 'Uuid/v4';
 
 const app = express();
 
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({extended: false, limit: '50mb'}));
 app.use(bodyParser.json());
 
 app.get('/api/getDefinitions', (req: express.Request, res: express.Response) => {
